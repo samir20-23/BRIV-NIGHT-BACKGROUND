@@ -1156,7 +1156,7 @@ width: 71px;
 height: 71px;
 position: absolute;
 background:#ffffff;
-animation: move 5s infinite;
+animation: shb 15s infinite;
 animation-direction: alternate-reverse;
 }
 .onuue{
@@ -1194,15 +1194,18 @@ animation: wasotwo 1s infinite;
 	transform: translateX(-3px) rotate(15deg);
 }
 }
-@keyframes move{
-from{ transform: translateX(1px); }
-to{ transform: translateX(50px) ;}
+@keyframes shb{
+from{ transform: translateX(-115px); }
+to{ transform: translateX(515px);}
 }
 @keyframes sunn{
 from{ box-shadow:0px 0px 50px 20px yellow; }
 to{ box-shadow:0px 0px 60px 20px rgb(255, 255, 0);}
 }
-
+@keyframes mun{
+	from{ box-shadow:0px 0px 50px 20px rgb(255, 255, 255); }
+	to{ box-shadow:0px 0px 60px 20px rgb(255, 255, 255);}
+	}
 
 input#in:checked ~.shadow {
 	width: 21.1%;
@@ -1228,6 +1231,8 @@ input#in:checked ~ .background {
 	display: none;
 }
 input#in:checked ~.mun{
+	animation: mun 1s infinite;
+	animation-direction: alternate-reverse;
 width: 201px;
 height: 201px;
 background-image:  radial-gradient(circle, #eeeeeedf, #eee,rgb(255, 255, 255));;
@@ -1241,4 +1246,80 @@ box-shadow: 0 0 82px 22px #eee;
 	position: relative;
 	top: -492px;
 	left: 0%;
+}
+
+input#in:checked ~ #njom{
+	display: block;
+}
+
+#njom{display: none;}
+.njm1{
+	width: 0.09%;
+	height: 0.09%;
+	border-radius: 50%;
+	box-shadow: 0 0 5px 2px #eee;
+	background-color: #f6ff00;
+	position: absolute;
+	top: 5%;
+	left: 33%;
+}
+.njm2{
+	width: 0.09%;
+	height: 0.09%;
+	border-radius: 50%;
+	box-shadow: 0 0 5px 2px #eee;
+	background-color: #f6ff00;
+	position: absolute;
+	top: 22%;
+	left: 63%;
+}
+.njm3{
+	width: 0.09%;
+	height: 0.09%;
+	border-radius: 50%;
+	box-shadow: 0 0 5px 2px #eee;
+	background-color: #f6ff00;
+	position: absolute;
+	top: 11%;
+	left: 6%;
+}
+.njm4{
+	width: 0.09%;
+	height: 0.09%;
+	border-radius: 50%;
+	box-shadow: 0 0 5px 2px #eee;
+	background-color: #f6ff00;
+	position: absolute;
+	top: 13%;
+	left: 83%;
+}
+.njm5{
+	width: 0.09%;
+	height: 0.09%;
+	border-radius: 50%;
+	box-shadow: 0 0 5px 2px #eee;
+	background-color: #f6ff00;
+	position: absolute;
+	top: 25%;
+	left: 93%;
+}
+.njm6{
+	width: 0.09%;
+	height: 0.09%;
+	border-radius: 50%;
+	box-shadow: 0 0 5px 2px #eee;
+	background-color: #f6ff00;
+	position: absolute;
+	top: 9%;
+	left: 53%;
+}
+.njm7{
+	width: 0.09%;
+	height: 0.09%;
+	border-radius: 50%;
+	box-shadow: 0 0 5px 2px #eee;
+	background-color: #f6ff00;
+	position: absolute;
+	top: 15%;
+	left: 38%;
 }
