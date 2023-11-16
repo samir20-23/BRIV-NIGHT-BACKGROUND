@@ -793,7 +793,7 @@ span {
 /*hear*/
 .cuboidi .side {
 	position: absolute;
-	top: -280px;
+	top: -360%;
 	left: 50%;
 	height: 100%;
 	width: 100%;
